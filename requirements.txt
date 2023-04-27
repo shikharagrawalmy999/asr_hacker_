@@ -1,0 +1,10 @@
+matplotlib
+numba
+tensorboard
+numpy
+inflect
+librosa
+scipy
+Unidecode
+pillow
+g2p_en
