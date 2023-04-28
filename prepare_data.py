@@ -8,6 +8,8 @@ from utils.text2seq import text2seq
 from layers import TacotronSTFT
 import hparams as hp
 
+# Path to the data files, download the LJ Speech dataset, and place the file metadata.csv in the data folder
+# Also paste the entire wavs folder in the data directory. Create an empty directory preprocessed in the data folder
 csv_file = './data/metadata.csv'
 root_dir = './data/wavs'
 data_dir = './data/preprocessed'

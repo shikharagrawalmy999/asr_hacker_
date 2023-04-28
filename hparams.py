@@ -9,10 +9,14 @@ output_directory = 'training_log'
 iters_per_validation=10
 iters_per_checkpoint=100
 
+# Path to the preprocessed data
 data_path = './data/preprocessed'
+
+# Path to the samples used for training, testing, validation
 training_files='filelists/train_new.txt'
 validation_files='filelists/val_new.txt'
 test_files='filelists/test_new.txt'
+
 text_cleaners=['english_cleaners']
 
 
